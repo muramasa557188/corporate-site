@@ -1,0 +1,57 @@
+//
+// ニュースのスタイル
+//
+
+
+.news {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: $white;
+    @media (min-width: 769px) { // 追加
+        padding-top: 8rem; // 追加
+        padding-bottom: 8rem; // 追加
+    } // 追加
+}
+
+.news-list {
+    padding: 0 2rem;
+    margin: 0 auto 2rem;
+    list-style: none;
+    @media (min-width: 769px) { // 追加
+        max-width: 80rem; // 追加
+    } // 追加
+    li {
+        padding: 2rem 0;
+        margin-bottom: 0;
+        border-bottom: 1px $gray2 solid;
+        &:first-child {
+            border-top: 1px $gray2 solid;
+        }
+    }
+}
+
+.news-list-date {
+    display: block;
+    color: $gray1;
+    @media (min-width: 769px) { // 追加
+        display: inline-block; // 追加
+        margin-right: 4rem; // 追加
+    } // 追加
+}
+
+.news-footer {
+    text-align: center;
+}
+
+.button-news {
+    padding: 1.2rem 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $black;
+    background-color: $white;
+    border: 1px solid $gray2;
+    border-radius: .4rem;
+    @media (min-width: 769px) { // 追加
+        font-size: 1.6rem; // 追加
+    } // 追加
+}

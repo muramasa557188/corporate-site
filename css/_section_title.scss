@@ -1,0 +1,23 @@
+//
+// セクションタイトルのスタイル
+//
+
+
+.section-heading {
+    text-align: center;
+}
+
+.section-title {
+    display: inline-block;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    border-bottom: 4px solid $yellow;
+    @media (min-width: 769px) { // 追加
+        margin-bottom: 4rem; // 追加
+        font-size: 4rem; // 追加
+    } // 追加
+}
